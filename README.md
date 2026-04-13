@@ -145,10 +145,11 @@ The DPPS shall be capable to take into account mis-aligned mirrors for muon anal
 Residual contributions to the estimated optical throughput from muon analysis shall not exceed 0.5% (LST) or 1%(MST) in relative terms. This requirement does not apply to the muon analysis of SSTs.
     - Project : <ins>ctalibpipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations is required, incorporating individual mirror absence, processed using DPPS and including the dedicated muon analysis tool.
+        - Simulations are **NOT** available (to be simulated).
 
 22) **Optimize the computation by using photon energy instead of wavelength.**
 This is related to the fact that Cherenkov light has a photon energy distribution that is flat with respect to wavelength (~1/lambda^2).
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. None.
