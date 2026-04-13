@@ -20,14 +20,15 @@ The DPPS shall provide tools to estimate the statistical and systematic uncertai
 The DPPS shall be able to estimate and apply corrections for biases introduced by optical aberrations in the mapping from camera coordinates to incidence angle, using full geometry ray-tracing. The DPPS shall produce per-telescope correction maps and report residuals after correction.
     - Project : <ins>ctapipe</ins>
     - Status : **closed**
-    - Test statement : This requirement's implementation is validated through the simulation described below. Two simulations of muon events are required, processed using DPPS in two configurations: with and without plate-scale calibration.
+    - Test statement : This requirement's implementation is validated through the simulation described below. Single baseline simulation of muon events are required, processed using DPPS in two configurations: with and without plate-scale calibration.
         - Simulations are available for LSTs, MSTs, and SSTs.
     
 4) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.33 CTAO-B_DPPS-551 - Muon-based Flat-field Monitoring.**
 The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
     - Project : <ins>calibpipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, processed using DPPS and including the dedicated tool for muon flat-fielding.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 5) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Pixel-wise charge calibration from muon analysis (same as 4))**
 The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
