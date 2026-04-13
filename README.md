@@ -6,7 +6,8 @@ The points are presented in chronological order, as they were discussed. If a po
 The DPPS shall support calibrating the muon analysis against dedicated muon simulations that include all relevant shadow-casting parts of the telescope at their respective distances to the reflector.
     - Project : <ins>ctapipe</ins>
     - Status : **closed**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. Observation of camera shadowing in the simulation and other shadow-casting components.
+      - Simulations are available for LSTs, MSTs, and SSTs.
 
 2) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.25 CTAO-B_DPPS-408 - Optical Throughput Uncertainty Estimation.**
 The DPPS shall provide tools to estimate the statistical and systematic uncertainty of the optical throughput calibration coefficients and shall support configuring the acquisition interval (time or event count) to achieve the required statistical uncertainty.
