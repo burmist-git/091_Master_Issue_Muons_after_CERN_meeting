@@ -41,13 +41,15 @@ The DPPS shall calculate alternative flat-fielding coefficients from muon analys
 The DPPS shall calculate alternative time offset coefficients from muon analysis with an rms accuracy of better than 1 ns and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
     - Project : <ins>calibpipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, processed using DPPS and including the dedicated tool for muon time offset calibration.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 7) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Optical PSF monitoring from muon analysis.**
 The DPPS shall calculate alternative estimates of the optical PSF of each telescope from muon analysis and use these to monitor and improve the accuracy of the monitored optical PSF.
     - Project : <ins>calibpipe</ins>
     - Status : **closed**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations is required with mirror misalignment, processed using DPPS and including the dedicated tool for muon optical PSF monitoring.
+        - Simulations are available for LSTs.
 
 8) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Degradation of individual mirrors from muon analysis.**
 The DPPS shall calculate alternative estimates of the relative reflectance of each mirror with respect to the telescope average from muon analysis.
