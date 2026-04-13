@@ -14,6 +14,7 @@ The DPPS shall provide tools to estimate the statistical and systematic uncertai
     - Project : <ins>ctapipe-snippets</ins>
     - Status : **closed**
     - Test statement : This requirement's implementation is validated through the simulation described below. For statistical uncertainty estimation, one needs baseline simulations of muon events with arbitrarily chosen azimuth and altitude. For systematic uncertainty estimation, two simulations of muon events are required: a baseline simulation with fixed parameters and another with a variation of the studied parameter. In the case of systematic error due to the Earth's magnetic field, one can use two simulations with different telescope orientations: first with maximum transverse magnetic field with respect to the telescope pointing direction, and second with minimum.
+      - Simulations are available for LSTs, MSTs, and SSTs.
 
 3) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.28 CTAO-B_DPPS-435 - Plate-Scale Calibrations.**
 The DPPS shall be able to estimate and apply corrections for biases introduced by optical aberrations in the mapping from camera coordinates to incidence angle, using full geometry ray-tracing. The DPPS shall produce per-telescope correction maps and report residuals after correction.
