@@ -110,7 +110,7 @@ The muon analysis shall be calibrated during commissioning of each new telescope
     - Status : **closed**
     - Test statement : This requirement's implementation is validated through the simulation described below.
 
-19)  **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Extinction of muon Cherenkov light by aerosols in the air.**
+19) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Extinction of muon Cherenkov light by aerosols in the air.**
 The DPPS shall be capable to estimate and correct extinction of the muon Cherenkov light by aerosols in the air.
     - Project : <ins>ctalibpipe</ins> 
     - Status : **TBD**
