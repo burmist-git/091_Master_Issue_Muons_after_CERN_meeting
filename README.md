@@ -125,13 +125,13 @@ Impact distance reconstruction of the muon analysis shall include the effect of 
 The muon analysis shall be calibrated during commissioning of each new telescope against dedicated muon simulations, which shall correctly include all shadowing parts of the telescope, at their respective distances to the reflector. The residual rms systematic error of the simulated muon ring image pixel-wise sizes shall not exceed 1% of the one corresponding to the designed telescope.
     - Project : <ins>ctalibpipe</ins> or <ins>ctapipe</ins>
     - Status : **closed**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : None.
 
 19) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Extinction of muon Cherenkov light by aerosols in the air.**
 The DPPS shall be capable to estimate and correct extinction of the muon Cherenkov light by aerosols in the air.
     - Project : <ins>ctalibpipe</ins> 
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations with different atmospheric conditions (extinction defined by different aerosol concentrations in the air) is required, processed using DPPS.
 
 20) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Incidence-angle dependencies of telescope camera for muon analysis.**
 The DPPS shall be capable to include awareness of dependencies of the sensitivity of the camera to light inciding from angles onto the camera and correct for these.
