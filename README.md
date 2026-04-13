@@ -4,13 +4,13 @@ The points are presented in chronological order, as they were discussed. If a po
 
 1) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.23 CTAO-B_DPPS-439 - Calibration of the Muon Analysis Using Simulations.**
 The DPPS shall support calibrating the muon analysis against dedicated muon simulations that include all relevant shadow-casting parts of the telescope at their respective distances to the reflector.
-    - Project : <u>ctapipe</u>
+    - Project : <ins>ctapipe</ins>
     - Status : **closed**
     - Test statement : bla bla bla
 
 2) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.25 CTAO-B_DPPS-408 - Optical Throughput Uncertainty Estimation.**
 The DPPS shall provide tools to estimate the statistical and systematic uncertainty of the optical throughput calibration coefficients and shall support configuring the acquisition interval (time or event count) to achieve the required statistical uncertainty.
-    - Project : <u>ctapipe</u>
+    - Project : <ins>ctapipe</ins>
     - Status : **closed**
     - Test statement : bla bla bla
 
@@ -22,12 +22,16 @@ The DPPS shall be able to estimate and apply corrections for biases introduced b
 
 4) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.33 CTAO-B_DPPS-551 - Muon-based Flat-field Monitoring.**
 The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
-    - Project : <u>calibpipe</u>
+    - Project : <ins>calibpipe</ins>
     - Status : **TBD**
     - Test statement : bla bla bla
 
 5) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Pixel-wise charge calibration from muon analysis (same as 4))**
-The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device. **(TBD)** __calibpipe__  **(The test statement needs to be written and approved.)**
+The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
+    - Project : <ins>calibpipe</ins>
+    - Status : **TBD**
+    - Test statement : bla bla bla
+
 
 6) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Pixel-wise time calibration from muon analysis.**
 The DPPS shall calculate alternative time offset coefficients from muon analysis with an rms accuracy of better than 1 ns and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device. **(TBD)** __calibpipe__  **(The test statement needs to be written and approved.)**
