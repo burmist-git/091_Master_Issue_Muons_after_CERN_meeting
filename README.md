@@ -34,7 +34,8 @@ The DPPS shall calculate alternative flat-fielding coefficients from muon analys
 The DPPS shall calculate alternative flat-fielding coefficients from muon analysis and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
     - Project : <ins>calibpipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, processed using DPPS and including the dedicated tool for muon flat-fielding.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 6) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Pixel-wise time calibration from muon analysis.**
 The DPPS shall calculate alternative time offset coefficients from muon analysis with an rms accuracy of better than 1 ns and use these to monitor and improve the accuracy of the coefficients obtained with the flat-field device.
