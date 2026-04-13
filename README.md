@@ -17,6 +17,7 @@ The DPPS shall provide tools to estimate the statistical and systematic uncertai
 3) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.28 CTAO-B_DPPS-435 - Plate-Scale Calibrations.**
 The DPPS shall be able to estimate and apply corrections for biases introduced by optical aberrations in the mapping from camera coordinates to incidence angle, using full geometry ray-tracing. The DPPS shall produce per-telescope correction maps and report residuals after correction.
     - Project : <u>ctapipe</u>
+      	      	---
     - Status : **closed**
     - Test statement : bla bla bla
 
