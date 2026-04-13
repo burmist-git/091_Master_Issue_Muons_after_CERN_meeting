@@ -3,7 +3,9 @@ The points are presented in chronological order, as they were discussed. If a po
 **Every item has to be followed by a described test procedure.** It has been agreed to use UC templates for the test statements.
 
 1) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.23 CTAO-B_DPPS-439 - Calibration of the Muon Analysis Using Simulations.**
-The DPPS shall support calibrating the muon analysis against dedicated muon simulations that include all relevant shadow-casting parts of the telescope at their respective distances to the reflector. **(closed)**  **(The test statement needs to be written and approved.)**
+The DPPS shall support calibrating the muon analysis against dedicated muon simulations that include all relevant shadow-casting parts of the telescope at their respective distances to the reflector.
+    - Status : **closed**
+    - Test statement : bla bla bla
 
 2) **From DPPS Level B Requirements Specification_stamped.pdf: 9.8.25 CTAO-B_DPPS-408 - Optical Throughput Uncertainty Estimation.**
 The DPPS shall provide tools to estimate the statistical and systematic uncertainty of the optical throughput calibration coefficients and shall support configuring the acquisition interval (time or event count) to achieve the required statistical uncertainty.**(closed)**  **(The test statement needs to be written and approved.)**
