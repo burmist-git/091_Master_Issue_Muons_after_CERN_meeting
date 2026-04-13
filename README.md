@@ -132,12 +132,13 @@ The DPPS shall be capable to estimate and correct extinction of the muon Cherenk
     - Project : <ins>ctalibpipe</ins> 
     - Status : **TBD**
     - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations with different atmospheric conditions (extinction defined by different aerosol concentrations in the air) is required, processed using DPPS.
+        - Simulations are **NOT** available (to be simulated).
 
 20) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Incidence-angle dependencies of telescope camera for muon analysis.**
 The DPPS shall be capable to include awareness of dependencies of the sensitivity of the camera to light inciding from angles onto the camera and correct for these.
     - Project : <ins>ctalibpipe</ins> or <ins>ctapipe</ins>
     - Status : **To clarify**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. **To clarify**.
 
 21) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Mis-aligned mirrors for muon analysis.**
 The DPPS shall be capable to take into account mis-aligned mirrors for muon analysis, and apply corrections for these. 
