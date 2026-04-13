@@ -55,25 +55,29 @@ The DPPS shall calculate alternative estimates of the optical PSF of each telesc
 The DPPS shall calculate alternative estimates of the relative reflectance of each mirror with respect to the telescope average from muon analysis.
     - Project : <ins>calibpipe</ins> or <ins>ctapipe</ins> 
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations is required, incorporating individual mirror reflectivity degradation, processed using DPPS and including the dedicated muon reflectivity degradation tool.
+        - Simulations are **NOT** available (to be simulated).
 
 9) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Un-biased pulse integration and noise removal for muon analysis.**
 The DPPS shall make sure that biases introduced by pulse integration and noise removal to the muon analysis shall be smaller than 1% of the estimated ring image size.
     - Project : <ins>calibpipe</ins>
     - Status : **To clarify**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. **To clarify**
+        - Simulations are **NOT** available (to be simulated).
 
 10) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Removal of non-active pixels from the signal predictor.**
 The DPPS shall exclude broken or masked pixels from the signal predictor of the muon image that is used to calculate the muon bandwidth.
     - Project : <ins>calibpipe</ins> or <ins>ctapipe</ins> 
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations is required, incorporating individual non-active pixels, processed using DPPS and including the dedicated muon reflectivity degradation tool.
+        - Simulations are **NOT** available (to be simulated).
 
 11) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Correction for non-active pixels for muon analysis (deprecated and replaced with 10)**
 The DPPS shall be capable of taking into account non-active (broken) pixels in the muon analysis and its impact shall account for less than 0.5% of the muon image size on average for a given Telescope.
     - Project : <ins>calibpipe</ins> or <ins>ctapipe</ins> 
     - Status : **TBD**  (deprecated and replaced with 10)
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations is required, incorporating individual non-active pixels, processed using DPPS and including the dedicated muon reflectivity degradation tool.
+        - Simulations are **NOT** available (to be simulated).
 
 12) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Non-spherical reflectors for muon analysis.**
 The DPPS shall use non-circularity of the reflectors from muon analysis following the prescriptions outlined in Section 3.4.2 ("Interpolation of Flat Mirror Distance") [RD].
