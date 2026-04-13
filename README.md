@@ -90,19 +90,22 @@ The DPPS shall use non-circularity of the reflectors from muon analysis followin
 The DPPS shall be capable to estimate and correct for biases due to optical aberrations in the correspondence of camera coordinates to incidence angles, for the muon analysis.
     - Project : <ins>ctapipe</ins>
     - Status : **closed** (same as 3)
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. Single baseline simulation of muon events are required, processed using DPPS in two configurations: with and without plate-scale calibration.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 14) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Finite camera focus for muon analysis.**
 The DPPS shall be capable to estimate and correct for the bias on the reconstructed Cherenkov angle due to the effect of finite camera focuses for the  muon analysis using Eq. 45 of [RD].
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. Single baseline simulation of muon events are required, processed using DPPS in two configurations: with and without finite camera focus correction.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 15) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Geomagnetic field effects for muon analysis.**
 The DPPS shall be capable of taking into account the effect of bending of the muon trajectory due to geomagnetic field effects, and to ensure that their effects bias the estimated optical throughput from muon analysis by less than 1% rms in relative terms using Eqs. 49-51 of [RD].
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, with pointing that maximizes the effect of the geomagnetic field, processed using DPPS in two configurations: with and without the effect of bending of the muon trajectory in the geomagnetic field.
+        - Simulations are available for LSTs.
 
 16) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Shadow awareness for muon analysis.**
 Impact distance reconstruction of the muon analysis shall include the effect of shadows from the camera and the central hole in the main reflector and the possible secondary mirror plus protecting baffles and particularly its dependency on the muon inclination.
