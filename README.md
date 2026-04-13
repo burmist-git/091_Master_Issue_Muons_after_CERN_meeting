@@ -69,7 +69,7 @@ The DPPS shall be capable of taking into account non-active (broken) pixels in t
     - Test statement : This requirement's implementation is validated through the simulation described below.
 
 12) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Non-spherical reflectors for muon analysis.**
-The DPPS shall use non-circularity of the reflectors from muon analysis following the prescriptions outlined in Section 3.4.2 ("Interpolation of Flat Mirror Distance")  [RD].
+The DPPS shall use non-circularity of the reflectors from muon analysis following the prescriptions outlined in Section 3.4.2 ("Interpolation of Flat Mirror Distance") [RD].
     - Project : <ins>ctapipe</ins> 
     - Status : **TBD in progress**
     - Test statement : This requirement's implementation is validated through the simulation described below.
@@ -86,12 +86,13 @@ The DPPS shall be capable to estimate and correct for the bias on the reconstruc
     - Status : **TBD**
     - Test statement : This requirement's implementation is validated through the simulation described below.
 
-15)  **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Geomagnetic field effects for muon analysis.**
+15) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Geomagnetic field effects for muon analysis.**
+The DPPS shall be capable of taking into account the effect of bending of the muon trajectory due to geomagnetic field effects, and to ensure that their effects bias the estimated optical throughput from muon analysis by less than 1% rms in relative terms using Eqs. 49-51 of [RD].
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
     - Test statement : This requirement's implementation is validated through the simulation described below.
 
-16)   **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Shadow awareness for muon analysis.**
+16) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Shadow awareness for muon analysis.**
 Impact distance reconstruction of the muon analysis shall include the effect of shadows from the camera and the central hole in the main reflector and the possible secondary mirror plus protecting baffles and particularly its dependency on the muon inclination.
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
