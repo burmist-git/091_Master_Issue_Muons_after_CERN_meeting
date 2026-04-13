@@ -83,7 +83,8 @@ The DPPS shall be capable of taking into account non-active (broken) pixels in t
 The DPPS shall use non-circularity of the reflectors from muon analysis following the prescriptions outlined in Section 3.4.2 ("Interpolation of Flat Mirror Distance") [RD].
     - Project : <ins>ctapipe</ins> 
     - Status : **TBD in progress**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A set of dedicated simulations of muon events with a fixed impact point is required, processed using DPPS.
+        - Simulations are **NOT** available (to be simulated).
 
 13) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx: B-DPPS-37XX Plate-scale calibrations for muon analysis (same as 3).** 
 The DPPS shall be capable to estimate and correct for biases due to optical aberrations in the correspondence of camera coordinates to incidence angles, for the muon analysis.
