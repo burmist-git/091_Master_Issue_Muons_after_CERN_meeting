@@ -111,13 +111,15 @@ The DPPS shall be capable of taking into account the effect of bending of the mu
 Impact distance reconstruction of the muon analysis shall include the effect of shadows from the camera and the central hole in the main reflector and the possible secondary mirror plus protecting baffles and particularly its dependency on the muon inclination.
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, processed using DPPS in two configurations: with and without the effect shadows from the camera and the central hole in the main reflector.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 17) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Secondary mirror awareness for muon analysis.**
 Impact distance reconstruction of the muon analysis shall include the effect of a secondary mirror.
     - Project : <ins>ctapipe</ins>
     - Status : **TBD**
-    - Test statement : This requirement's implementation is validated through the simulation described below.
+    - Test statement : This requirement's implementation is validated through the simulation described below. A single baseline simulation of muon events is required, processed using DPPS in two configurations: with and without the effect of secondary mirror shadows.
+        - Simulations are available for LSTs, MSTs, and SSTs.
 
 18) **From DPPS_LevelB_Requirements_Batch3_Calibration.xlsx:  B-DPPS-37XX Muon simulations.**
 The muon analysis shall be calibrated during commissioning of each new telescope against dedicated muon simulations, which shall correctly include all shadowing parts of the telescope, at their respective distances to the reflector. The residual rms systematic error of the simulated muon ring image pixel-wise sizes shall not exceed 1% of the one corresponding to the designed telescope.
